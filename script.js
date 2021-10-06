@@ -7,9 +7,9 @@ $(document).ready(function(){
     $("#map2").click(function(){
         $(".draggable").css("background-image", "kalina-2-min.jpg");
     });
-    $("#map3").click(function(){
-        $(".draggable").css("background-image", "kalina-3-min.jpg");
-    });
+    // $("#map3").click(function(){
+    //     $(".draggable").css("background-image", "kalina-3-min.jpg");
+    // });
     $("#zoomIn").click(function(){
         var scale = $(".draggable").css("background-size");
         var scaleResult = parseInt(scale) + 10 + "%";
