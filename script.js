@@ -12,7 +12,7 @@ $(document).ready(function(){
     // });
     $("#zoomIn").click(function(){
         var scale = $(".draggable").css("background-size");
-        var scaleResult = parseInt(scale) + 10 + "%";
+        var scaleResult = parseInt(scale) + 1 + "%";
         $( ".draggable" ).css("background-size", scaleResult);
 
         var moveTopPercent = 20;
